@@ -7,6 +7,7 @@
 body{
     font-family: 'poppins', sans-serif;
     background-color: #2e2e2e;
+    color: whitesmoke;
 }
 
 .image{
@@ -14,4 +15,18 @@ body{
     height: 100px;
     margin-top: 20px;
     margin-left: 50px;
+}
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.list{
+    font-size: 20px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.list:nth-child(even){
+    color: rgb(188, 207, 12);
 }
